@@ -1,0 +1,34 @@
+.sample {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 100px 0;
+
+  .content {
+    width: 100%;
+    max-width: 900px;
+    padding: 0 1em;
+  }
+
+  .logo {
+    display: block;
+    max-width: 60px;
+    margin: 0 auto 4rem;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 3.5rem;
+    color: var(--white);
+    text-align: center;
+    text-shadow: 0 3px 10px var(--black);
+    margin-bottom: 2em;
+  }
+
+  .wrapper {
+    max-width: clamp(300px, 100%, 640px);
+    margin: auto;
+  }
+}
